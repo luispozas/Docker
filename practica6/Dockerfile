@@ -2,7 +2,7 @@
 FROM ubuntu 
 
 ##Actualizamos el sistema
- RUN apt-get update 
+RUN apt-get update 
 
 ##En algunas versiones de Linux es necesario configurar una variable para el TIMEZONE 
 ENV TZ=Europe/Madrid 
